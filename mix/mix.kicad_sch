@@ -2932,49 +2932,19 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RS45111A900F:RS45111A900F"
+		(symbol "SlidePOT:PTA4543-2015DPB103"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "VR"
-				(at 24.13 7.62 0)
+			(property "Reference" "R"
+				(at 0 -5.588 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "RS45111A900F"
-				(at 24.13 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "RS45111A900F"
-				(at 24.13 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://tech.alpsalpine.com/e/products/detail/RS45111A900F/#ancFig1"
-				(at 24.13 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Res POT 10K Ohm 20% (60 X 8 X 17mm) Pin Thru-Hole"
+			(property "Value" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2983,174 +2953,333 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "17.5"
-				(at 24.13 -394.92 0)
+			(property "Footprint" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "ALPS Electric"
-				(at 24.13 -494.92 0)
+			(property "Datasheet" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "RS45111A900F"
-				(at 24.13 -594.92 0)
+			(property "Description" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "688-RS45111A900F"
-				(at 24.13 -694.92 0)
+			(property "Manufacturer Part" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/RS45111A900F?qs=m0BA540hBPfJpPKCy7qRCQ%3D%3D"
-				(at 24.13 -794.92 0)
+			(property "Manufacturer" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" ""
-				(at 24.13 -894.92 0)
+			(property "Supplier Part" "C17444183"
+				(at -0.254 4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Arrow Price/Stock" ""
-				(at 24.13 -994.92 0)
+			(property "Supplier" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "RS45111A900F_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 22.86 -7.62)
+			(property "LCSC Part Name" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PTA4543-2015DPB103_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.032 -1.524)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "CCW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(polyline
+					(pts
+						(xy -2.032 -1.524) (xy -1.524 -3.556)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "WIPER"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(polyline
+					(pts
+						(xy -1.524 -3.556) (xy -0.762 -1.524)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "CW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(polyline
+					(pts
+						(xy -0.762 -1.524) (xy -0.254 -3.556)
 					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
-				(pin passive line
-					(at 27.94 0 180)
-					(length 5.08)
-					(name "MH1"
+				(polyline
+					(pts
+						(xy -0.508 0) (xy 0 -1.016) (xy 0 -1.016) (xy 0.508 0) (xy 0.508 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -3.556) (xy 0.254 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -1.524) (xy 1.016 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -3.556) (xy 1.524 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.524) (xy 2.286 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -3.556) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.0254 0.0254)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.0254 0.0254)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 27.94 -2.54 180)
-					(length 5.08)
-					(name "MH2"
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.0254 0.0254)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 1.27 180)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.0254 0.0254)
 							)
 						)
 					)
@@ -3644,6 +3773,18 @@
 		(uuid "ecf85e70-3791-434b-ad7b-caf8a3ec10e6")
 	)
 	(no_connect
+		(at 30.48 58.42)
+		(uuid "00281764-bdee-409e-9f1a-02fcf1f41b75")
+	)
+	(no_connect
+		(at 107.95 58.42)
+		(uuid "017ae67c-3f39-4971-9b11-bed115e766fd")
+	)
+	(no_connect
+		(at 146.05 58.42)
+		(uuid "04e5eb37-f1bb-4a54-8214-c64f9dfd58dc")
+	)
+	(no_connect
 		(at 176.53 85.09)
 		(uuid "0543e8cb-5c34-4c3c-9b35-5fe05e6f42c4")
 	)
@@ -3652,20 +3793,28 @@
 		(uuid "07915cfb-a152-46b1-98e2-e20a85195e54")
 	)
 	(no_connect
-		(at 166.37 58.42)
-		(uuid "14baab98-b72e-473a-ad7e-d7a91020a9ef")
+		(at 156.21 58.42)
+		(uuid "0c70bda1-52e7-460e-a84e-423bde046b5c")
+	)
+	(no_connect
+		(at 261.62 57.15)
+		(uuid "0ccf127a-477a-4530-bbba-986d43552061")
+	)
+	(no_connect
+		(at 233.68 58.42)
+		(uuid "0d8a12b0-f582-4679-95bf-ae6a421b9672")
 	)
 	(no_connect
 		(at 199.39 138.43)
 		(uuid "159949a6-cdd9-406f-bca5-4bf75e3166ae")
 	)
 	(no_connect
-		(at 128.27 58.42)
-		(uuid "169f4e3a-4056-42f9-961b-c5ab41de4bb8")
+		(at 271.78 57.15)
+		(uuid "17494897-8d81-4b81-bb14-c03eb18fbeb5")
 	)
 	(no_connect
-		(at 242.57 60.96)
-		(uuid "1827b7a2-2c7f-42df-80bf-ae42ff349b58")
+		(at 40.64 57.15)
+		(uuid "1b2502ac-9381-4674-a81f-0a2cc476bfd8")
 	)
 	(no_connect
 		(at 199.39 140.97)
@@ -3676,36 +3825,52 @@
 		(uuid "26eae941-f1a2-4107-a7aa-32365b603c3e")
 	)
 	(no_connect
-		(at 90.17 60.96)
-		(uuid "2a11e35e-b36d-4b9b-895a-a6db4ee0dcb1")
-	)
-	(no_connect
-		(at 204.47 60.96)
-		(uuid "2a83ef1d-8315-4b59-8a6f-a7ebce9644f9")
-	)
-	(no_connect
 		(at 78.74 119.38)
 		(uuid "3134db84-939c-4696-9b01-c04b6bc10390")
 	)
 	(no_connect
-		(at 52.07 60.96)
-		(uuid "39b562ea-be8f-4cfd-b250-5c967a93d6c9")
+		(at 71.12 58.42)
+		(uuid "331a25fb-6dfb-44b6-97d0-da61fafbed85")
 	)
 	(no_connect
-		(at 166.37 60.96)
-		(uuid "4043ccfa-2323-4be9-918b-2d9e8c6a2105")
+		(at 185.42 57.15)
+		(uuid "3a8bd1f8-bb9c-43d5-b397-d52f1c1b9904")
 	)
 	(no_connect
-		(at 204.47 58.42)
-		(uuid "4afbade3-babb-43ed-9a59-9a132230ff66")
+		(at 311.15 57.15)
+		(uuid "3b037d29-c771-4976-990c-934164e98305")
 	)
 	(no_connect
-		(at 280.67 60.96)
-		(uuid "6907a548-1d39-4b1d-8cf7-071a70000bd2")
+		(at 271.78 58.42)
+		(uuid "3c98eae0-8597-4bb6-892e-51a1fe6d3a81")
 	)
 	(no_connect
-		(at 280.67 58.42)
-		(uuid "78d502c1-88ce-4336-be87-af5be213e3de")
+		(at 300.99 57.15)
+		(uuid "442ed77a-bbc4-4b62-9d73-59e25e037632")
+	)
+	(no_connect
+		(at 156.21 57.15)
+		(uuid "46775fe8-26a7-49a2-b197-8e51d8a75eac")
+	)
+	(no_connect
+		(at 195.58 57.15)
+		(uuid "51ca97b3-011a-499e-8505-80e209af614a")
+	)
+	(no_connect
+		(at 118.11 58.42)
+		(uuid "53d50a33-d55e-487c-97ee-8b465e7a6e1e")
+	)
+	(no_connect
+		(at 81.28 58.42)
+		(uuid "6a60dbd6-e560-4e06-8482-94f2990a00d4")
+	)
+	(no_connect
+		(at 300.99 58.42)
+		(uuid "6ce2e39b-a145-4e07-973f-0714c24a8b90")
+	)
+	(no_connect
+		(at 146.05 57.15)
+		(uuid "798efbb5-0c32-4679-8836-070480eee18d")
 	)
 	(no_connect
 		(at 274.32 177.8)
@@ -3720,36 +3885,64 @@
 		(uuid "91aacb35-0241-4eb0-930b-aae6d4d4ebc5")
 	)
 	(no_connect
+		(at 223.52 57.15)
+		(uuid "998af3b4-4d58-4ec0-b063-932095c4f56a")
+	)
+	(no_connect
+		(at 81.28 57.15)
+		(uuid "a504db64-eb8d-42e0-8f04-c9f661647891")
+	)
+	(no_connect
 		(at 199.39 130.81)
 		(uuid "a79e9469-8c4b-461a-9704-2f1f6507a2d4")
 	)
 	(no_connect
-		(at 318.77 58.42)
-		(uuid "a8608c2a-0df2-4845-8e28-f196397b936d")
+		(at 223.52 58.42)
+		(uuid "a88bddb4-9db2-4934-99f0-132f241255ee")
 	)
 	(no_connect
-		(at 52.07 58.42)
-		(uuid "b855557f-a486-4716-8625-1243886833e1")
+		(at 118.11 59.69)
+		(uuid "af1e9492-b2fe-4960-b5f1-1521ab83e903")
 	)
 	(no_connect
-		(at 242.57 58.42)
-		(uuid "bba2c743-6822-4c39-879f-c432aa28040b")
+		(at 233.68 57.15)
+		(uuid "beaf0542-cd42-4b4d-bc99-091941abd0c6")
 	)
 	(no_connect
-		(at 90.17 58.42)
-		(uuid "c208c38c-42ae-412e-87aa-b877a2a91f70")
+		(at 261.62 58.42)
+		(uuid "c0f3985b-dea4-443f-b292-d4f64ac4fd67")
 	)
 	(no_connect
-		(at 318.77 60.96)
-		(uuid "c5b5961e-310c-488e-b915-d08e354913fb")
+		(at 311.15 58.42)
+		(uuid "c21bab68-5678-4fa7-b9f2-e77cad70e46a")
 	)
 	(no_connect
 		(at 199.39 146.05)
 		(uuid "c6db7047-2985-4676-b906-a5801a20fc47")
 	)
 	(no_connect
-		(at 128.27 60.96)
-		(uuid "c847a12c-3eb9-444b-822c-fd22b96c0e7d")
+		(at 107.95 59.69)
+		(uuid "c9e1e9c9-914d-4889-a040-f896a9b87525")
+	)
+	(no_connect
+		(at 185.42 58.42)
+		(uuid "d2dd3027-a761-4b22-877a-061b5c7152e3")
+	)
+	(no_connect
+		(at 30.48 57.15)
+		(uuid "db653b08-5326-47a8-824d-0158395cb512")
+	)
+	(no_connect
+		(at 40.64 58.42)
+		(uuid "e1730f13-befb-4ea4-90ed-c7c3e973e483")
+	)
+	(no_connect
+		(at 71.12 57.15)
+		(uuid "f80d132a-33fc-4d1d-b700-a39e912686e4")
+	)
+	(no_connect
+		(at 195.58 58.42)
+		(uuid "fb1a81a7-84da-4621-b216-4b695c0c7c47")
 	)
 	(wire
 		(pts
@@ -4013,22 +4206,22 @@
 	)
 	(global_label "CH3F"
 		(shape input)
-		(at 138.43 60.96 180)
+		(at 151.13 57.15 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "0042bd36-8600-4984-b36a-1873067fce55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.5462 60.96 0)
+			(at 151.13 49.2662 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4805,22 +4998,22 @@
 	)
 	(global_label "CH1F"
 		(shape input)
-		(at 62.23 60.96 180)
+		(at 76.2 57.15 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5a4b4cf4-71ab-453b-b858-c92d42e87ea7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.3462 60.96 0)
+			(at 76.2 49.2662 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4959,22 +5152,22 @@
 	)
 	(global_label "CH0F"
 		(shape input)
-		(at 24.13 60.96 180)
+		(at 35.56 57.15 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "6bbc2754-f33e-4fee-a82f-ef74b8c51759")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.2462 60.96 0)
+			(at 35.56 49.2662 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5179,22 +5372,22 @@
 	)
 	(global_label "CH7F"
 		(shape input)
-		(at 290.83 60.96 180)
+		(at 306.07 57.15 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "8799d4e6-5a57-41ce-984c-07e89c80fce9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.9462 60.96 0)
+			(at 306.07 49.2662 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5311,22 +5504,22 @@
 	)
 	(global_label "CH6F"
 		(shape input)
-		(at 252.73 60.96 180)
+		(at 266.7 57.15 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "990609b8-4473-4717-9037-359ba730e3d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.8462 60.96 0)
+			(at 266.7 49.2662 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5465,22 +5658,22 @@
 	)
 	(global_label "CH2F"
 		(shape input)
-		(at 100.33 60.96 180)
+		(at 113.03 58.42 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "a0c55012-5eb1-4b5b-a55d-b55e2f707d56")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.4462 60.96 0)
+			(at 113.03 50.5362 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5729,22 +5922,22 @@
 	)
 	(global_label "CH5F"
 		(shape input)
-		(at 214.63 60.96 180)
+		(at 228.6 57.15 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d19ec7c8-423f-4f07-aef6-fe03767e6431")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.7462 60.96 0)
+			(at 228.6 49.2662 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5839,22 +6032,22 @@
 	)
 	(global_label "CH4F"
 		(shape input)
-		(at 176.53 60.96 180)
+		(at 190.5 57.15 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "e07192d1-ef2c-4a51-9330-3117d6589ce5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.6462 60.96 0)
+			(at 190.5 49.2662 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6098,155 +6291,6 @@
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RS45111A900F:RS45111A900F")
-		(at 176.53 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00449483-d195-40a9-8a91-ad9ed1f8ee64")
-		(property "Reference" "VR5"
-			(at 190.5 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RS45111A900F"
-			(at 190.5 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KiCad:RS45111A900F"
-			(at 200.66 153.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tech.alpsalpine.com/e/products/detail/RS45111A900F/#ancFig1"
-			(at 200.66 253.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Res POT 10K Ohm 20% (60 X 8 X 17mm) Pin Thru-Hole"
-			(at 176.53 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "17.5"
-			(at 200.66 453.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ALPS Electric"
-			(at 200.66 553.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RS45111A900F"
-			(at 200.66 653.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "688-RS45111A900F"
-			(at 200.66 753.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/RS45111A900F?qs=m0BA540hBPfJpPKCy7qRCQ%3D%3D"
-			(at 200.66 853.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 200.66 953.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 200.66 1053.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "3927cb52-0a0d-495c-9470-174d1cdb4101")
-		)
-		(pin "2"
-			(uuid "8b5c0fd6-cf28-4a71-b56e-d6fc29105176")
-		)
-		(pin "3"
-			(uuid "e35465b7-367c-4db2-a55f-75b48b4307d2")
-		)
-		(pin "5"
-			(uuid "5d56ed90-82c0-4e04-9b71-5409407d8cb2")
-		)
-		(pin "1"
-			(uuid "5c90266b-f7e9-43ca-9176-188a1f4e354c")
-		)
-		(instances
-			(project "mix"
-				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
-					(reference "VR5")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -6680,6 +6724,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 146.05 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b36ffcf-02c8-4dbf-8719-bb6a51a4a24a")
+		(property "Reference" "#PWR026"
+			(at 139.7 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.462 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dff794ee-ff21-4cbb-a3f9-feb5d1bec894")
+		)
+		(instances
+			(project "mix"
+				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 121.92 22.86 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6892,155 +7001,6 @@
 			(project "mix"
 				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
 					(reference "D31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RS45111A900F:RS45111A900F")
-		(at 24.13 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f74c55f-760e-41f6-8bb6-669393581d50")
-		(property "Reference" "VR1"
-			(at 38.1 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RS45111A900F"
-			(at 38.1 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KiCad:RS45111A900F"
-			(at 48.26 153.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tech.alpsalpine.com/e/products/detail/RS45111A900F/#ancFig1"
-			(at 48.26 253.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Res POT 10K Ohm 20% (60 X 8 X 17mm) Pin Thru-Hole"
-			(at 24.13 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "17.5"
-			(at 48.26 453.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ALPS Electric"
-			(at 48.26 553.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RS45111A900F"
-			(at 48.26 653.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "688-RS45111A900F"
-			(at 48.26 753.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/RS45111A900F?qs=m0BA540hBPfJpPKCy7qRCQ%3D%3D"
-			(at 48.26 853.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 48.26 953.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 48.26 1053.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "4d0f0d74-225e-4c16-aa6a-cedb9d9c33a6")
-		)
-		(pin "2"
-			(uuid "a0fe14c1-8c9b-49e9-bf3d-c1b06cb9cb8f")
-		)
-		(pin "3"
-			(uuid "f91bcf20-4fdb-4e6d-b400-430432a875da")
-		)
-		(pin "5"
-			(uuid "c04f1919-9548-46ee-9bd8-8bbbd4967582")
-		)
-		(pin "1"
-			(uuid "5f18e8d4-cdf2-4de3-b636-95e4f94d5dd3")
-		)
-		(instances
-			(project ""
-				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
-					(reference "VR1")
 					(unit 1)
 				)
 			)
@@ -7425,6 +7385,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 300.99 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "144a3549-9c3d-4c55-8840-44bcb2a7df8f")
+		(property "Reference" "#PWR054"
+			(at 294.64 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 295.402 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 300.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 300.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4d0eb0f-8168-40fd-a8fa-77315b23a428")
+		)
+		(instances
+			(project "mix"
+				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 24.13 124.46 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7747,6 +7772,135 @@
 			(project "mix"
 				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
 					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SlidePOT:PTA4543-2015DPB103")
+		(at 266.7 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bb315a5-00e7-4496-b5f0-19c8a4995962")
+		(property "Reference" "R7"
+			(at 266.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 266.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SlidePOT:RES-ADJ_PTA4543-2015CPB102"
+			(at 266.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 266.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 266.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C17444183"
+			(at 266.446 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 266.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 266.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "b483b527-65b5-42e3-af94-ce0208e2c612")
+		)
+		(pin "2"
+			(uuid "21150792-6084-4b2b-bdc1-52c56be2a68f")
+		)
+		(pin "3"
+			(uuid "e03cef86-07dc-48af-ae0d-095ede4df6c1")
+		)
+		(pin "7"
+			(uuid "7cc25070-54a4-44f8-963a-bc3ef663fba3")
+		)
+		(pin "4"
+			(uuid "c065fab6-8c87-4704-a54d-943b0f784f40")
+		)
+		(pin "5"
+			(uuid "15fc3070-5703-4780-bf05-e451129a10b9")
+		)
+		(pin "1"
+			(uuid "448597f8-7b64-4d6d-9e71-381cf267d857")
+		)
+		(instances
+			(project "mix"
+				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8233,155 +8387,6 @@
 		)
 	)
 	(symbol
-		(lib_id "RS45111A900F:RS45111A900F")
-		(at 62.23 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22768a8e-525d-42ee-b5a2-8693ea3a7221")
-		(property "Reference" "VR2"
-			(at 76.2 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RS45111A900F"
-			(at 76.2 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KiCad:RS45111A900F"
-			(at 86.36 153.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tech.alpsalpine.com/e/products/detail/RS45111A900F/#ancFig1"
-			(at 86.36 253.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Res POT 10K Ohm 20% (60 X 8 X 17mm) Pin Thru-Hole"
-			(at 62.23 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "17.5"
-			(at 86.36 453.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ALPS Electric"
-			(at 86.36 553.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RS45111A900F"
-			(at 86.36 653.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "688-RS45111A900F"
-			(at 86.36 753.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/RS45111A900F?qs=m0BA540hBPfJpPKCy7qRCQ%3D%3D"
-			(at 86.36 853.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 86.36 953.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 86.36 1053.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "846cceff-3e85-4cc8-9c33-eb0af47a36ed")
-		)
-		(pin "2"
-			(uuid "c4ad8422-0a78-48fe-838b-59fde2dcaa90")
-		)
-		(pin "3"
-			(uuid "02b6067d-c49c-4b4d-83c3-798261b58021")
-		)
-		(pin "5"
-			(uuid "1e9c5178-69d5-4e74-859e-417cd744d3f8")
-		)
-		(pin "1"
-			(uuid "f6b3104b-e640-4182-863d-4c306a99a6b4")
-		)
-		(instances
-			(project "mix"
-				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
-					(reference "VR2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 393.7 38.1 0)
 		(unit 1)
@@ -8526,72 +8531,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 252.73 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23d35dfb-6e59-4ced-ab37-b413ebbaecac")
-		(property "Reference" "#PWR047"
-			(at 252.73 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 252.73 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 252.73 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83341138-db9f-43c2-9305-a0ac1e63cef6")
-		)
-		(instances
-			(project "mix"
-				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 24.13 132.08 270)
 		(unit 1)
@@ -8729,6 +8668,71 @@
 			(project "mix"
 				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
 					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 185.42 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28af734c-94b8-4bf4-a94d-c78e1f5b2435")
+		(property "Reference" "#PWR033"
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.832 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f65534bd-eb18-425b-90f0-6fad86c69cd6")
+		)
+		(instances
+			(project "mix"
+				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -9269,83 +9273,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 214.63 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4042c0fd-1a47-4013-b775-35785447ed02")
-		(property "Reference" "#PWR041"
-			(at 214.63 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 214.63 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "058af054-409f-4eb5-8d09-0d8700fb2e37")
-		)
-		(instances
-			(project "mix"
-				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
-		(at 100.33 58.42 0)
+		(at 81.28 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "405b694f-089d-4967-a0ea-901bb836537d")
-		(property "Reference" "#PWR019"
-			(at 100.33 62.23 0)
+		(uuid "403e8e0f-bbb8-4635-a8d2-8ba05987d142")
+		(property "Reference" "#PWR013"
+			(at 77.47 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9354,15 +9292,16 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 100.33 53.34 0)
+			(at 85.09 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 58.42 0)
+			(at 81.28 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9371,7 +9310,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 58.42 0)
+			(at 81.28 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9380,7 +9319,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 100.33 58.42 0)
+			(at 81.28 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9389,12 +9328,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cd43ee1e-7c30-4dec-986a-d500d6d4c71a")
+			(uuid "aeeb8ff3-836a-4a89-ba35-f8cd6533cde0")
 		)
 		(instances
 			(project "mix"
 				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
-					(reference "#PWR019")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9463,155 +9402,6 @@
 			(project "mix"
 				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
 					(reference "SW11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RS45111A900F:RS45111A900F")
-		(at 100.33 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46b0a5df-80b0-478f-95ed-af6125a604e5")
-		(property "Reference" "VR3"
-			(at 114.3 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RS45111A900F"
-			(at 114.3 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KiCad:RS45111A900F"
-			(at 124.46 153.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tech.alpsalpine.com/e/products/detail/RS45111A900F/#ancFig1"
-			(at 124.46 253.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Res POT 10K Ohm 20% (60 X 8 X 17mm) Pin Thru-Hole"
-			(at 100.33 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "17.5"
-			(at 124.46 453.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ALPS Electric"
-			(at 124.46 553.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RS45111A900F"
-			(at 124.46 653.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "688-RS45111A900F"
-			(at 124.46 753.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/RS45111A900F?qs=m0BA540hBPfJpPKCy7qRCQ%3D%3D"
-			(at 124.46 853.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 124.46 953.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 124.46 1053.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "f4d09e84-1300-4b37-8088-115a390bd0ba")
-		)
-		(pin "2"
-			(uuid "24e73a80-3946-4c85-9483-749cebc0ae7c")
-		)
-		(pin "3"
-			(uuid "9695bbcf-a311-45b0-a019-72b26e4eb889")
-		)
-		(pin "5"
-			(uuid "c68b5c2d-e942-4c1f-936b-13239ed66eab")
-		)
-		(pin "1"
-			(uuid "6bf11d17-49b5-4d3e-b6fb-cd3bb45fcc42")
-		)
-		(instances
-			(project "mix"
-				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
-					(reference "VR3")
 					(unit 1)
 				)
 			)
@@ -10049,72 +9839,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 214.63 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f764f87-726e-4c29-8ea0-8746107e4208")
-		(property "Reference" "#PWR040"
-			(at 214.63 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 214.63 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 214.63 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7aa8095d-7a28-441a-bb61-2faa60127765")
-		)
-		(instances
-			(project "mix"
-				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 83.82 185.42 0)
 		(unit 1)
@@ -10500,72 +10224,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59bfa53f-2b58-4cdd-bdfd-69dca76daa30")
-		(property "Reference" "#PWR013"
-			(at 62.23 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 62.23 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "622b6369-b617-445a-b1ec-9fc1a4afccea")
-		)
-		(instances
-			(project "mix"
-				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 78.74 142.24 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10909,16 +10567,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 63.5 0)
+		(at 30.48 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "642b3b0e-5a2b-4bf8-be56-0cb834dca013")
 		(property "Reference" "#PWR07"
-			(at 24.13 69.85 0)
+			(at 24.13 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10927,7 +10584,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 68.58 0)
+			(at 24.892 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10935,7 +10592,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 63.5 0)
+			(at 30.48 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10944,7 +10601,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 63.5 0)
+			(at 30.48 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10953,7 +10610,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 63.5 0)
+			(at 30.48 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11044,155 +10701,6 @@
 			(project "mix"
 				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
 					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RS45111A900F:RS45111A900F")
-		(at 290.83 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67bbd34a-7866-4cbd-9e20-663753833b90")
-		(property "Reference" "VR8"
-			(at 304.8 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RS45111A900F"
-			(at 304.8 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KiCad:RS45111A900F"
-			(at 314.96 153.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tech.alpsalpine.com/e/products/detail/RS45111A900F/#ancFig1"
-			(at 314.96 253.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Res POT 10K Ohm 20% (60 X 8 X 17mm) Pin Thru-Hole"
-			(at 290.83 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "17.5"
-			(at 314.96 453.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ALPS Electric"
-			(at 314.96 553.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RS45111A900F"
-			(at 314.96 653.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "688-RS45111A900F"
-			(at 314.96 753.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/RS45111A900F?qs=m0BA540hBPfJpPKCy7qRCQ%3D%3D"
-			(at 314.96 853.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 314.96 953.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 314.96 1053.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "c3076cf2-659e-4f55-aede-03deac1ebed4")
-		)
-		(pin "2"
-			(uuid "04219a6f-ecda-4771-bc35-a2ce57ba9611")
-		)
-		(pin "3"
-			(uuid "ddb08e5e-efb1-4da5-9008-4d068ccc458f")
-		)
-		(pin "5"
-			(uuid "6fef3f3d-a0b3-46b0-bf1d-bde939fdc333")
-		)
-		(pin "1"
-			(uuid "2b3573b7-d51c-44f9-b973-6f33b8b0a8a6")
-		)
-		(instances
-			(project "mix"
-				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
-					(reference "VR8")
 					(unit 1)
 				)
 			)
@@ -11546,6 +11054,135 @@
 		)
 	)
 	(symbol
+		(lib_id "SlidePOT:PTA4543-2015DPB103")
+		(at 190.5 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d8134d3-5bb3-4383-bb34-6b2fea8f93a2")
+		(property "Reference" "R5"
+			(at 190.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 190.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SlidePOT:RES-ADJ_PTA4543-2015CPB102"
+			(at 190.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 190.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 190.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C17444183"
+			(at 190.246 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 190.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 190.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "9174efcd-e7b5-43c6-9626-9754c8ecb283")
+		)
+		(pin "2"
+			(uuid "2d1f097a-776d-4816-a472-c8d31ba8b674")
+		)
+		(pin "3"
+			(uuid "3caf6fe8-4998-4cc8-bcea-a977bc0e97da")
+		)
+		(pin "7"
+			(uuid "b48b8199-9bbe-4b5c-b2d4-011451151177")
+		)
+		(pin "4"
+			(uuid "067da6e7-d6db-414c-a52c-a2b871db155d")
+		)
+		(pin "5"
+			(uuid "ed8b974f-6e1e-4634-abff-08553aa77f31")
+		)
+		(pin "1"
+			(uuid "1e1184ac-5f4e-4a3c-84a2-5f3337b3602b")
+		)
+		(instances
+			(project "mix"
+				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_45deg")
 		(at 426.72 66.04 0)
 		(unit 1)
@@ -11626,155 +11263,6 @@
 			(project "mix"
 				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
 					(reference "D32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RS45111A900F:RS45111A900F")
-		(at 214.63 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6df54157-4bdb-41fe-9354-cf6b69cc0c05")
-		(property "Reference" "VR6"
-			(at 228.6 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RS45111A900F"
-			(at 228.6 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KiCad:RS45111A900F"
-			(at 238.76 153.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tech.alpsalpine.com/e/products/detail/RS45111A900F/#ancFig1"
-			(at 238.76 253.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Res POT 10K Ohm 20% (60 X 8 X 17mm) Pin Thru-Hole"
-			(at 214.63 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "17.5"
-			(at 238.76 453.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ALPS Electric"
-			(at 238.76 553.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RS45111A900F"
-			(at 238.76 653.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "688-RS45111A900F"
-			(at 238.76 753.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/RS45111A900F?qs=m0BA540hBPfJpPKCy7qRCQ%3D%3D"
-			(at 238.76 853.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 238.76 953.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 238.76 1053.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "dfa1ba1b-41a7-4b5f-9923-3cf6559e4aeb")
-		)
-		(pin "2"
-			(uuid "c0406179-9959-4712-9a78-cdc5a3dfde0c")
-		)
-		(pin "3"
-			(uuid "4749970c-b409-4de2-b0c2-de575b70ad7b")
-		)
-		(pin "5"
-			(uuid "38d1bc0f-d845-4c08-9b09-4de8c7fb27fb")
-		)
-		(pin "1"
-			(uuid "e96461ae-ad5e-4c21-ac0c-61ac8817d6ae")
-		)
-		(instances
-			(project "mix"
-				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
-					(reference "VR6")
 					(unit 1)
 				)
 			)
@@ -12100,6 +11588,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 223.52 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72ccf5b8-ff8c-4240-836f-104ad9dc2f5b")
+		(property "Reference" "#PWR040"
+			(at 217.17 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.932 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ac926e2-e8de-49b7-b2b5-4ba3e056dc65")
+		)
+		(instances
+			(project "mix"
+				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 220.98 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12251,72 +11804,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 100.33 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a8554fe-e673-4cbc-8bdb-100fd3a0f43f")
-		(property "Reference" "#PWR020"
-			(at 100.33 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 100.33 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c635078e-e9cc-4b13-be3c-942bb4899d4a")
-		)
-		(instances
-			(project "mix"
-				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 83.82 170.18 0)
 		(unit 1)
@@ -12377,6 +11864,135 @@
 			(project "mix"
 				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SlidePOT:PTA4543-2015DPB103")
+		(at 306.07 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bef8820-7489-4565-bf84-193b3bcc5717")
+		(property "Reference" "R8"
+			(at 306.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 306.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SlidePOT:RES-ADJ_PTA4543-2015CPB102"
+			(at 306.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 306.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 306.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 306.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C17444183"
+			(at 305.816 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 306.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 306.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "2ae581a4-503f-4e5d-bd3f-cba21346e850")
+		)
+		(pin "2"
+			(uuid "5c83ded0-a80d-45a9-b863-b6bbb239b53c")
+		)
+		(pin "3"
+			(uuid "21310cd7-01af-4aca-9171-0ee06aca3e3a")
+		)
+		(pin "7"
+			(uuid "8b454019-9007-4356-8ec0-7a723bd54c49")
+		)
+		(pin "4"
+			(uuid "e2fba3ab-f11c-46f4-b5b7-1234ed06bacb")
+		)
+		(pin "5"
+			(uuid "b9aa9861-9252-42fe-be14-28f5081d6924")
+		)
+		(pin "1"
+			(uuid "0bb7021b-235f-4e06-a637-b035fd8385d3")
+		)
+		(instances
+			(project "mix"
+				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -12649,16 +12265,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 63.5 0)
+		(at 261.62 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d621dab-4492-4930-b26f-f79ccf5aa598")
-		(property "Reference" "#PWR027"
-			(at 138.43 69.85 0)
+		(uuid "901301ee-a064-4b69-a22e-ebdf52fc2e1f")
+		(property "Reference" "#PWR047"
+			(at 255.27 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12667,7 +12282,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 68.58 0)
+			(at 256.032 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12675,7 +12290,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 63.5 0)
+			(at 261.62 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12684,7 +12299,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 63.5 0)
+			(at 261.62 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12693,7 +12308,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 63.5 0)
+			(at 261.62 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12702,12 +12317,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "eedd87e7-877b-43a1-b022-f1e5e3c942b9")
+			(uuid "6a521247-c620-47f8-8bca-25eb14f04056")
 		)
 		(instances
 			(project "mix"
 				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
-					(reference "#PWR027")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -12940,155 +12555,6 @@
 			(project "mix"
 				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
 					(reference "SW10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RS45111A900F:RS45111A900F")
-		(at 138.43 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9415a02a-b5cf-4898-bccc-5a424d97e198")
-		(property "Reference" "VR4"
-			(at 152.4 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RS45111A900F"
-			(at 152.4 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KiCad:RS45111A900F"
-			(at 162.56 153.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tech.alpsalpine.com/e/products/detail/RS45111A900F/#ancFig1"
-			(at 162.56 253.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Res POT 10K Ohm 20% (60 X 8 X 17mm) Pin Thru-Hole"
-			(at 138.43 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "17.5"
-			(at 162.56 453.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ALPS Electric"
-			(at 162.56 553.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RS45111A900F"
-			(at 162.56 653.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "688-RS45111A900F"
-			(at 162.56 753.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/RS45111A900F?qs=m0BA540hBPfJpPKCy7qRCQ%3D%3D"
-			(at 162.56 853.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 162.56 953.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 162.56 1053.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "c617e903-85bb-45e3-b067-8767a1675edc")
-		)
-		(pin "2"
-			(uuid "4593fd1e-3a42-408d-a267-ada115d9b063")
-		)
-		(pin "3"
-			(uuid "e697b307-fa02-4212-afc0-3a3393fb90f8")
-		)
-		(pin "5"
-			(uuid "091de3d7-3a93-4d56-8dca-c98271880509")
-		)
-		(pin "1"
-			(uuid "92a23d7d-6c74-4827-9df1-33fd487d5217")
-		)
-		(instances
-			(project "mix"
-				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
-					(reference "VR4")
 					(unit 1)
 				)
 			)
@@ -13485,6 +12951,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 233.68 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b1b35ba-f88e-4fbc-9d46-751d4b59d565")
+		(property "Reference" "#PWR041"
+			(at 229.87 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 237.49 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 233.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bb55b70-02a4-40e9-b764-9b5752685759")
+		)
+		(instances
+			(project "mix"
+				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 190.5 185.42 0)
 		(unit 1)
@@ -13551,53 +13084,16 @@
 		)
 	)
 	(symbol
-		(lib_id "RS45111A900F:RS45111A900F")
-		(at 252.73 58.42 0)
+		(lib_id "power:GND")
+		(at 107.95 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ef4cf08-6367-4fb8-b1e6-521f757b01ee")
-		(property "Reference" "VR7"
-			(at 266.7 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RS45111A900F"
-			(at 266.7 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KiCad:RS45111A900F"
-			(at 276.86 153.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tech.alpsalpine.com/e/products/detail/RS45111A900F/#ancFig1"
-			(at 276.86 253.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Res POT 10K Ohm 20% (60 X 8 X 17mm) Pin Thru-Hole"
-			(at 252.73 58.42 0)
+		(uuid "a12bf4d5-9f57-477e-8edc-e8aba52b627e")
+		(property "Reference" "#PWR019"
+			(at 101.6 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13605,95 +13101,48 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "17.5"
-			(at 276.86 453.34 0)
+		(property "Value" "GND"
+			(at 102.362 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "ALPS Electric"
-			(at 276.86 553.34 0)
+		(property "Footprint" ""
+			(at 107.95 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RS45111A900F"
-			(at 276.86 653.34 0)
+		(property "Datasheet" ""
+			(at 107.95 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "688-RS45111A900F"
-			(at 276.86 753.34 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/RS45111A900F?qs=m0BA540hBPfJpPKCy7qRCQ%3D%3D"
-			(at 276.86 853.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 276.86 953.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 276.86 1053.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "8e1837b5-0b6c-45b6-816a-13d62410a842")
-		)
-		(pin "2"
-			(uuid "b5bc6d45-7ce7-4645-871a-fa45a8008b3a")
-		)
-		(pin "3"
-			(uuid "d8c58cd5-0fef-4f10-a0c4-17a6d6429d31")
-		)
-		(pin "5"
-			(uuid "63b47356-735f-4c6a-974e-33dd5db0af11")
 		)
 		(pin "1"
-			(uuid "5df32c09-84da-4020-bf0f-5ffddc731db5")
+			(uuid "8b0136ab-0c8c-47c1-91df-c585302feb71")
 		)
 		(instances
 			(project "mix"
 				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
-					(reference "VR7")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -14066,6 +13515,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 195.58 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5d7bfde-2a24-43ad-8269-9583af188963")
+		(property "Reference" "#PWR034"
+			(at 191.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 199.39 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 195.58 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc1a5341-029b-4a14-89a1-15321247bb4a")
+		)
+		(instances
+			(project "mix"
+				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 156.21 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6c1bd4c-a57a-4796-b855-5f6bf31a137b")
+		(property "Reference" "#PWR027"
+			(at 152.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 160.02 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 156.21 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1311f31a-5235-4772-a2e1-5e306cb41c18")
+		)
+		(instances
+			(project "mix"
+				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:SK6812MINI")
 		(at 175.26 177.8 0)
 		(unit 1)
@@ -14275,6 +13858,135 @@
 		)
 	)
 	(symbol
+		(lib_id "SlidePOT:PTA4543-2015DPB103")
+		(at 35.56 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa3a3b72-2baf-46c7-aafb-6e817fd43a3b")
+		(property "Reference" "R1"
+			(at 35.56 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 35.56 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SlidePOT:RES-ADJ_PTA4543-2015CPB102"
+			(at 35.56 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 35.56 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 35.56 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C17444183"
+			(at 35.306 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 35.56 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 35.56 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "0b683fcf-d000-4693-ba37-d9efff4a845b")
+		)
+		(pin "2"
+			(uuid "5f97a8a5-9375-4abe-be3e-909d70c14929")
+		)
+		(pin "3"
+			(uuid "9e78358d-2ada-40ca-8dd8-0fae323c2ea0")
+		)
+		(pin "7"
+			(uuid "c0d67317-a9d5-4afb-bc52-79aeed8b45d5")
+		)
+		(pin "4"
+			(uuid "d1061d2d-7135-4d91-8d6c-430e52eeff31")
+		)
+		(pin "5"
+			(uuid "d1b42e2f-6466-42c0-a45a-7709b32f46ae")
+		)
+		(pin "1"
+			(uuid "b314547f-70ff-43bc-84bf-29e32f0d55b0")
+		)
+		(instances
+			(project ""
+				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 266.7 185.42 0)
 		(unit 1)
@@ -14473,6 +14185,135 @@
 		)
 	)
 	(symbol
+		(lib_id "SlidePOT:PTA4543-2015DPB103")
+		(at 151.13 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1066fc6-335e-4c3b-91ee-fe87a2451840")
+		(property "Reference" "R4"
+			(at 151.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 151.13 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SlidePOT:RES-ADJ_PTA4543-2015CPB102"
+			(at 151.13 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 151.13 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 151.13 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C17444183"
+			(at 150.876 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 151.13 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 151.13 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "89f9e67b-ec0b-4005-9864-7e4b48efb050")
+		)
+		(pin "2"
+			(uuid "923be20a-10cd-421e-b3e1-d8ebb4cadd5b")
+		)
+		(pin "3"
+			(uuid "a7c6126a-dda0-4a94-9414-6cb7d62d8c41")
+		)
+		(pin "7"
+			(uuid "99e59585-5daa-4d3e-9663-f01a955ca08e")
+		)
+		(pin "4"
+			(uuid "22db7817-5103-40e4-b0b7-45afbbad38cc")
+		)
+		(pin "5"
+			(uuid "223f81b6-792c-43b6-b2c5-d4b0ca08f07d")
+		)
+		(pin "1"
+			(uuid "8e66e6a3-28c9-4bfa-8a1e-c355b8f4a148")
+		)
+		(instances
+			(project "mix"
+				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 198.12 22.86 90)
 		(unit 1)
@@ -14534,6 +14375,135 @@
 			(project "mix"
 				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SlidePOT:PTA4543-2015DPB103")
+		(at 228.6 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2fd95ce-788f-4d3f-9043-8d8d4b7db74c")
+		(property "Reference" "R6"
+			(at 228.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 228.6 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SlidePOT:RES-ADJ_PTA4543-2015CPB102"
+			(at 228.6 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 228.6 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 228.6 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C17444183"
+			(at 228.346 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 228.6 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 228.6 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "cf0f2943-4b1c-4230-bfdb-5a068de4e8a6")
+		)
+		(pin "2"
+			(uuid "b0a70a9f-343d-45cb-b339-a533cf17f5f9")
+		)
+		(pin "3"
+			(uuid "bdb9bea0-1d7d-49eb-9295-d213541dbbcd")
+		)
+		(pin "7"
+			(uuid "b20191c0-dddc-4d11-af94-cccbfca3b04a")
+		)
+		(pin "4"
+			(uuid "0263ffbc-896c-4236-a85a-b23ffa491486")
+		)
+		(pin "5"
+			(uuid "af72d354-8ffa-4a8f-80b3-70c3eadbfd57")
+		)
+		(pin "1"
+			(uuid "fc9bda30-4480-45b4-9b21-be058f78ea62")
+		)
+		(instances
+			(project "mix"
+				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -14751,72 +14721,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8130a33-8ee5-416a-a0c5-f2075eaeee5e")
-		(property "Reference" "#PWR034"
-			(at 176.53 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 176.53 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a771290-bcb6-4ac8-89b6-0c84b00e461a")
-		)
-		(instances
-			(project "mix"
-				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 251.46 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14883,73 +14787,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 290.83 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb5606c2-b876-4b8b-9dd6-22bc5eda40f6")
-		(property "Reference" "#PWR054"
-			(at 290.83 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 290.83 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 290.83 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 290.83 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 290.83 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "182bef2a-2606-4432-8e53-1e3ec691f8ba")
-		)
-		(instances
-			(project "mix"
-				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 24.13 58.42 0)
+		(at 40.64 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14958,7 +14796,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd0dc530-cbd3-47ac-8982-1594e382822e")
 		(property "Reference" "#PWR06"
-			(at 24.13 62.23 0)
+			(at 36.83 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14967,15 +14805,16 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 24.13 53.34 0)
+			(at 44.45 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 58.42 0)
+			(at 40.64 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14984,7 +14823,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 58.42 0)
+			(at 40.64 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14993,7 +14832,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 24.13 58.42 0)
+			(at 40.64 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15292,16 +15131,16 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 62.23 58.42 0)
+		(at 311.15 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c2629637-62e1-4d4d-818f-3254cb41a71d")
-		(property "Reference" "#PWR012"
-			(at 62.23 62.23 0)
+		(uuid "bf978572-15dc-46af-a47f-7dcd4fd8c115")
+		(property "Reference" "#PWR055"
+			(at 307.34 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15310,15 +15149,16 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 62.23 53.34 0)
+			(at 314.96 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 58.42 0)
+			(at 311.15 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15327,7 +15167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 58.42 0)
+			(at 311.15 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15336,7 +15176,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 62.23 58.42 0)
+			(at 311.15 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15345,12 +15185,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2a9764c5-3b50-4d03-998d-ffc76302127f")
+			(uuid "a27442d1-98ff-4800-91be-c0a65468ccb3")
 		)
 		(instances
 			(project "mix"
 				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
-					(reference "#PWR012")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -15662,16 +15502,16 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 138.43 58.42 0)
+		(at 118.11 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ce302a4a-d0ee-4074-bb00-9e1a846bdc93")
-		(property "Reference" "#PWR026"
-			(at 138.43 62.23 0)
+		(uuid "ce715502-fa84-477d-9a2d-eb6be0f37081")
+		(property "Reference" "#PWR020"
+			(at 114.3 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15680,15 +15520,16 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 138.43 53.34 0)
+			(at 121.92 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 58.42 0)
+			(at 118.11 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15697,7 +15538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 58.42 0)
+			(at 118.11 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15706,7 +15547,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 138.43 58.42 0)
+			(at 118.11 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15715,144 +15556,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "585d9308-974b-45ca-9d26-25e189deaf5f")
+			(uuid "fc2dcf09-7051-45de-a742-32e4ae81103e")
 		)
 		(instances
 			(project "mix"
 				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 290.83 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d21c2106-f88a-4c53-bce4-5d280763c052")
-		(property "Reference" "#PWR055"
-			(at 290.83 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 290.83 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 290.83 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 290.83 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 290.83 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0289ccc9-7b71-4020-a325-252eb1099bf5")
-		)
-		(instances
-			(project "mix"
-				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 252.73 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d21c8014-3f5a-405c-a9b5-b56fd2b15cba")
-		(property "Reference" "#PWR048"
-			(at 252.73 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 252.73 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b4dc1a2-52f1-453a-8a53-b6d604d755ee")
-		)
-		(instances
-			(project "mix"
-				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
-					(reference "#PWR048")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -16291,6 +16000,135 @@
 		)
 	)
 	(symbol
+		(lib_id "SlidePOT:PTA4543-2015DPB103")
+		(at 76.2 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d60eb0c4-e2c7-42c8-bac4-dca98580ff33")
+		(property "Reference" "R2"
+			(at 76.2 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 76.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SlidePOT:RES-ADJ_PTA4543-2015CPB102"
+			(at 76.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 76.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 76.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C17444183"
+			(at 75.946 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 76.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 76.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "34482456-160a-417d-ba22-20c21a8a5f77")
+		)
+		(pin "2"
+			(uuid "9b039a57-e961-43f9-8289-633f457b0561")
+		)
+		(pin "3"
+			(uuid "5d602596-4eb3-4979-88b2-4172fd72e7de")
+		)
+		(pin "7"
+			(uuid "3572d455-fc3a-4d52-a04b-df3178893811")
+		)
+		(pin "4"
+			(uuid "724a7ff6-f4db-4cc1-9c0a-b1b643613e9d")
+		)
+		(pin "5"
+			(uuid "7a1af877-b1a6-4c17-8f84-70389c4979b2")
+		)
+		(pin "1"
+			(uuid "8dc950d8-87fa-4a12-993a-79d17a31d5c9")
+		)
+		(instances
+			(project "mix"
+				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 114.3 170.18 0)
 		(unit 1)
@@ -16357,17 +16195,25 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 176.53 58.42 0)
+		(lib_id "SlidePOT:PTA4543-2015DPB103")
+		(at 113.03 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "de3fa717-16c7-4131-b39d-09b1baca146d")
-		(property "Reference" "#PWR033"
-			(at 176.53 62.23 0)
+		(uuid "df2f5d5c-5af2-4440-870e-1aaf4e0a1abf")
+		(property "Reference" "R3"
+			(at 113.03 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 113.03 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16375,16 +16221,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 176.53 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 58.42 0)
+		(property "Footprint" "SlidePOT:RES-ADJ_PTA4543-2015CPB102"
+			(at 113.03 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16393,7 +16231,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 58.42 0)
+			(at 113.03 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16401,22 +16239,85 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 176.53 58.42 0)
+		(property "Description" ""
+			(at 113.03 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Manufacturer Part" ""
+			(at 113.03 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 113.03 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C17444183"
+			(at 112.776 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 113.03 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 113.03 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "c2ab302b-42ca-426c-ac3c-ff1befe727bd")
+		)
+		(pin "2"
+			(uuid "3a85af73-020a-4f23-b717-e213223055cb")
+		)
+		(pin "3"
+			(uuid "75e4edfd-4a83-4bdb-b705-7508fd30f9fa")
+		)
+		(pin "7"
+			(uuid "d4f6dbbf-b6a2-49c0-a047-39ee052f9a77")
+		)
+		(pin "4"
+			(uuid "25f18954-46e5-455b-a738-36ee49e76f74")
+		)
+		(pin "5"
+			(uuid "2e429a82-c574-4828-9852-7a7b253609b0")
 		)
 		(pin "1"
-			(uuid "d0dd3b1a-d212-4f35-b736-4e6e658d2d03")
+			(uuid "f6bcbecf-2b99-4442-82a3-a45a3f5b9af1")
 		)
 		(instances
 			(project "mix"
 				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
-					(reference "#PWR033")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -17285,6 +17186,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 71.12 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f13c6d91-f1d9-48fe-9d68-54bd57cb3927")
+		(property "Reference" "#PWR012"
+			(at 64.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 65.532 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f24b19f-f6b6-4623-9ac2-39a958e63a97")
+		)
+		(instances
+			(project "mix"
+				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 236.22 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17487,6 +17453,73 @@
 			(project "mix"
 				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 271.78 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdd52bca-c386-463a-aeee-302327fe1d3b")
+		(property "Reference" "#PWR048"
+			(at 267.97 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 275.59 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 271.78 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2e00f2a-f8a2-4da1-9684-3232e477df78")
+		)
+		(instances
+			(project "mix"
+				(path "/38ef3427-587e-4c47-80c4-4bea877c49a2"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
