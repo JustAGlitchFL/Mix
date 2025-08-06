@@ -4,6 +4,7 @@ A multipurpose audio-focused console
 ![render](images/render.png)
 ![pcb](images/pcb.png)
 ![sch](images/sch.png)
+![case](images/case.png)
 
 ## Why
 I find myself constantly tuning my audio mix from different apps through windows, and would like a panel to adjust levels on the fly. I also wanted to use this for mixing audio for music and video projects, so I included 8 channels. Each channel has a slider for feed volume, an encoder for monitoring volume, a solo button, and a mute button. Everything is remappable to select functions for your usecase. I also included 2 neopixels per channel, one for status, and one for leveling by color.
